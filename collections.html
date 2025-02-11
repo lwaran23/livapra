@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Livapra</title>
+    <link rel="icon" href="fashion.jpg" />
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="color.css" />
+    <!-- Link Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
+    <!-- Link Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+<!-- Create NAVBAR -->
+<nav class="navbar">
+    <h1>Livapra</h1>
+    <div class="navbar-links">
+        <p class="nav-link"><a href="index.html">Home</a></p>
+        <p class="nav-link"><a href="collections.html">Collections</a></p>
+        <p class="nav-link"><a href="contact.html">Contact</a></p>
+    </div>
+    <div class="nav-menu" onclick="showbar()">
+        <i class="fas fa-bars"></i>
+    </div>
+</nav>
+<!-- Create a sidebar -->
+<div class="sidebar">
+    <p style="text-align: right;" onclick="hidebar()"><i class="fa-solid fa-xmark"></i></p>
+    <div class="sidebar-links">
+        <p class="side-link"><a href="index.html">Home</a></p>
+        <p class="side-link"><a href="collections.html">Collections</a></p>
+        <p class="side-link"><a href="contact.html">Contact</a></p>
+    </div>
+</div>
+<!-- Products -->
+ <div class="product-section">
+  <form class="product-search">
+    <input type="text" placeholder="Search for products" id="search-bar">
+    <i class="fas fa-search"></i>
+  </form>
+  <div class="products" id="products">
+    <div class="product">
+      <img src="https://picsum.photos/200?White Shirt?1" alt="">
+      <p>White Shirt</p>
+  </div>
+  <div class="product">
+    <img src="https://picsum.photos/200?Black Shirt?1" alt="">
+    <p>Black Shirt</p>
+</div>
+<div class="product">
+    <img src="https://picsum.photos/200?White Pant?1" alt="">
+    <p>White Pant</p>
+</div>
+<div class="product">
+    <img src="https://picsum.photos/200?Black Pant?1" alt="">
+    <p>Black Pant</p>
+</div>
+<div class="product">
+    <img src="https://picsum.photos/200?Men's Shirt?1" alt="">
+    <p>Men's Shirt</p>
+</div>
+<div class="product">
+  <img src="https://picsum.photos/200?Women's Shirt?1" alt="">
+  <p>Women's Shirt</p>
+</div>
+<div class="product">
+  <img src="https://picsum.photos/200?Men's Pant?1" alt="">
+  <p>Men's Pant</p>
+</div>
+<div class="product">
+  <img src="https://picsum.photos/200?Women's Pant?1" alt="">
+  <p>Women's Pant</p>
+</div>
+ </div>
+
+    <!-- Footer -->
+     <div class="footer">
+      <div class="footer-box">
+        <div class="footer-box1">
+          <h2 class="headingtext">Livapra</h2>
+          <p>Level Up Your Style</p>
+          <div class="footer-icon">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+         </div>
+         <p>@ 2025 Livapra.com</p>
+      </div>
+      
+     </div>
+     <script src="funtion.js"></script>
+    <script src="collection.js"></script>
+  </body>
+</html>
